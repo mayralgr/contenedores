@@ -1,0 +1,1 @@
+print("This is a script for a demo, say hello from python")
