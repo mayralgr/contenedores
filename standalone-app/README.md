@@ -12,7 +12,7 @@ chmod +x run_image.sh
 chmod +x stop_container.sh 
 ```
 before to give execution permisions to each script
-
+## Running/Building the container
 to build only
 ```
 chmod +x build_image.sh
