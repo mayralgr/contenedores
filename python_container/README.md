@@ -4,20 +4,27 @@ This is an example of a container that runs with python3 and installs numpy with
 
 Purpose is have a connection to the scripts subfolder in this and be able to run the scripts inside the container
 
+## Permissions for scripts
+Run:
+```
+chmod +x container_build_and_run.sh
+chmod +x container_build.sh
+chmod +x container_run.sh
+```
+before to give execution permisions to each script
+
+## Running/Building the container
 
 to build and run:
 ```
-chmod +x container_build_and_run.sh
 ./container_build_and_run.sh
 ```
 to build only
 ```
-chmod +x container_build.sh
 ./container_build.sh
 ```
 to run only
 ```
-chmod +x container_run.sh
 ./container_run.sh
 ```
 
