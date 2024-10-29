@@ -14,8 +14,6 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /backend
 COPY --from=builder /backend/build/libs/*.jar app.jar
 
-# EXPOSE 8080
+EXPOSE 8080
 
-ENTRYPOINT ["/bin/sh"]
-
-# ENTRYPOINT ["java", "-jar", "/backend/app.jar"]
+ENTRYPOINT ["java", "-jar", "/backend/app.jar"]
